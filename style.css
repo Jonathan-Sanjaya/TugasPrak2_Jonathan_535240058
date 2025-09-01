@@ -1,0 +1,82 @@
+/*css tanpa class*/
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li {
+    list-style: none;
+}
+span, h1 {
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.3;
+}
+span {
+    font-size: 35px;
+}
+h1 {
+    font-size: 50px;
+}
+td {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: 3px;
+}
+
+/*css dengan class*/
+.box {
+    width: 1650px;
+    height: 860px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1650px;
+}
+.bawah {
+    margin-bottom: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 855px;
+}
+.teks {
+    padding-left: 30px;
+}
+.nik {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.majuan {
+    padding-left: 100px;
+}
+.label {
+    width: 250px;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.muka {
+    height: 470px;
+    width: 350px;
+    box-shadow: 0 0 8px 10px whitesmoke;
+}
+.kanan {
+    line-height: 0.5;
+    margin-bottom: 10px;
+}
+.ttd {
+    width: 350px;
+    height: 150px;
+}
